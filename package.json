@@ -2,10 +2,17 @@
   "name": "CursoRest",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
   "repository": "https://github.com/danielwanelle/CursoRest.git",
   "author": "danielwanelle",
   "license": "MIT",
   "dependencies": {
+    "consign": "^0.1.6",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }
